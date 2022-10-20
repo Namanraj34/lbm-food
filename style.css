@@ -1,0 +1,1019 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* ======================== Navbar Start ========================= */
+
+.location-main{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(66 186 146);
+    color: #fff;
+    height: 33px;
+}
+
+.location{
+    margin-top: 8px;
+}
+
+.para{
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.location img{
+    width: 13px;
+}
+
+.select{
+    margin-top: 7px;
+}
+
+.select select{
+    border-color: transparent;
+    background-color: transparent;
+    color: #fff;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 50px;
+}
+
+
+.cart .logo{
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.cart .cart-inner{
+    padding: 10px 22px 10px 10px;
+    border: 1px solid rgb(227, 227, 227);
+    margin-left: 40px;
+    border-radius: 4px;
+}
+
+.cart select{
+    border-color: transparent;
+    background-color: transparent;
+    color: rgb(66 186 146);
+    font-weight: 600;
+}
+
+.cart-input {
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    margin-left: 40px;
+}
+
+.cart .btn{
+    border: 1px solid #ffb03b;
+    background-color: #ffb03b;
+    padding: 10px 13px  5px 14px;
+    border-radius: 4px;
+}
+
+.btn img{
+    width: 17px;
+}
+
+.call{
+    margin-left: 40px;
+}
+
+.heart , .cards , .user{
+    margin-left: 30px;
+}
+
+.user img{
+    width: 20px;
+}
+
+.menu-deal img{
+    width: 20px;
+}
+
+ /* menu bar */
+
+nav{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    height: 50px;
+    justify-content:space-around;
+}
+
+ul{
+    display: flex;
+}
+
+
+
+.menu-text , .deal-text{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.deal-text{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(66 186 146);
+}
+.menu-bar{
+    padding: 10px 20px 15px 20px;
+    background-color: rgb(66 186 146);
+    border-radius: 4px;
+}
+
+.main-menu{
+    list-style: none;
+}
+
+.main-menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+}
+
+.menu-deal{
+    padding: 10px 20px 4px 14px;
+    background-color: #dbfbff;
+    border-radius: 4px;
+}
+
+/* ======================== Navbar End ========================= */
+/* ======================== Banner Section Start ========================= */
+
+.banner{
+    display: grid;
+    grid-template-columns: 947px  431px;
+    padding: 10px;
+    grid-column-gap: 20px;
+}
+
+
+.banner-content{
+    background-image: url('/img/banner/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 146px 146px 146px 55px;
+    margin-left: 100px;
+}
+
+.banner-content1{
+    background-image: url(/img/banner/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 202px;
+    background-size: cover;
+    padding: 59px 0px 22px 29px;
+    margin-bottom: 20px;
+}
+
+.banner-content2{
+    background-image: url(/img/banner/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 172px;
+    background-size: cover;
+    padding: 59px 0px 22px 29px;
+}
+
+.banner-content1 h2{
+    color: rgb(66 186 146);
+    margin-top: 0px;
+}
+
+.banner-content2 h2{
+    color: #ff696b;
+    font-weight: 400;
+    margin-top: 0px;
+    font-size: 19px;
+}
+
+.banner-content p{
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.banner-content1 p{
+    font-size: 14px;
+}
+
+#offer{
+    margin-left: 10px;
+    color: red;
+    padding: 7px 14px 7px 14px;
+    border-radius: 20px;
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fff, #ffc2c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fff, #ffc2c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#offer1{
+    color: #ff696b;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#card-off{
+    color: #ff696b;
+}
+
+#offer2{
+    color: rgb(66 186 146);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.banner-daily{
+    color: rgb(66 186 146);
+}
+
+.banner-btn{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #ff696b;
+    background: -webkit-linear-gradient(to left, #fff, #ff696b); 
+    background: linear-gradient(to left, #ffa0a2, #ff696b);
+    margin-top: 20px;
+}
+
+.banner-btn1{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+
+.banner-btn2{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+
+
+.banner-btn  img{
+    width: 11px;
+    margin-left: 5px;
+}
+
+.banner-btn2 img{
+    width: 11px;
+    margin-left: 5px;
+}
+
+/* ======================== Banner Section  End ========================= */
+
+
+
+/* ======================== Card Section Start ========================= */
+
+.card-section{
+    display: grid;
+    grid-template-columns: 329px  329px 329px 329px;
+}
+
+
+.card{
+    background-image: url(/img/banner/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 165px 25px;
+    margin-left: 110px;
+    height: 100%;
+    width: 100%;
+    max-width: 288px;
+    max-height: 23px;
+}
+
+.card-1{
+    background-image: url(/img/banner/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 165px 25px;
+    margin-left: 110px;
+    height: 100%;
+    width: 100%;
+    max-width: 288px;
+    max-height: 23px;
+}
+.card-2{
+    background-image: url(/img/banner/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 165px 25px;
+    margin-left: 110px;
+    height: 100%;
+    width: 100%;
+    max-width: 288px;
+    max-height: 23px;
+}
+
+.card-3{
+    background-image: url(/img/banner/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px 165px 25px;
+    margin-left: 110px;
+    height: 100%;
+    width: 100%;
+    max-width: 288px;
+    max-height: 23px;
+}
+
+.card-img{
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 220px;
+    border-radius: 0px 25px 25px 0px;
+    padding: 7px 0px 7px 7px;
+}
+
+.card-img ,h4,p{
+    margin: 0px;
+}
+
+.card-btn{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin-top: 63px;
+    color: #fff;
+}
+
+.card-btn  img{
+    width: 11px;
+    margin-left: 5px;
+}
+/* ======================== Card Section End ========================= */
+
+
+
+/* ======================== item Section Start ========================= */
+
+.vl {
+    border-top: 2px solid green;
+    width: 50px;
+    margin-top: -14px;
+    margin-bottom: 20px;
+}
+
+.vl1 {
+    border-top: 2px solid green;
+    width: 110px;
+    margin-top: -14px;
+    margin-bottom: 20px;
+}
+
+.dot {
+    border-top: 1px dotted #000;
+    width: 247px;
+ 
+}
+
+
+.items-img{
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 220px;
+    border: 0.1px solid #e4e4e4;
+    padding: 7px 0px 7px 22px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 400px  993px;
+    grid-column-gap: 20px;
+}
+
+.categories{
+    margin-top: 40px;
+    margin-left: 110px;
+    padding: 1px 0px 0px 20px;
+    background-color: #f7f7f7;
+}
+
+.categories-content{
+    display: flex;
+}
+
+.categories-content img{
+    width: 19px;
+}
+
+.categories-content h5{
+    margin: 15px;
+}
+
+
+.items-cards{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+
+.item-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-box{
+    margin-top: 10px;
+}
+
+.items-box , .product-cat , .customer-product , .best-seller-box p{
+    font-size: 14px;
+}
+
+.item-heading .item-btn{
+    margin-top: 30px;
+    background-color: #ff696b;
+    color: #fff;
+    border: 1px solid #ff696b;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    height: 36px;
+}
+
+
+.card-img{
+    margin-top: 20px;
+}
+.card-img img{
+    width: 100%;
+    max-width: 144px;
+}
+
+.items-img h5{
+    margin: 10px 0px 10px 0px;
+}
+
+.items-img #price{
+    color: rgb(66 186 146);
+    font-weight: 600;
+}
+
+.items-img #price-cut{
+    -webkit-text-decoration-line: line-through;
+   text-decoration-line: line-through; 
+}
+
+.checked {
+    color: orange;
+}
+
+.fa-star span , #stock{
+    color: rgb(66 186 146);
+    font-weight: 400;
+}
+
+.item-add{
+    padding: 10px 65px 10px 65px;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.item-card{
+    color: rgb(66 186 146);
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: -38px;
+    background-color: #fff;
+    cursor: pointer;
+}
+/* ======================== item Section End ========================= */
+
+
+
+/* ======================== Categories Start ========================= */
+
+
+.product{
+    display: grid;
+    grid-template-columns: 400px  993px;
+    margin-top: 20px;
+    grid-column-gap: 20px;
+}
+
+.product-img{
+    background-image: url(/img/banner/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: cover;
+    width: 100%;
+    max-width: 179px;
+    padding: 37px 82px 273px  29px;
+    margin-left: 110px;
+}
+
+
+.product-content , .product-sea, .product-fre, .product-ever{
+    margin: 0;
+}
+
+.product-sea{
+    color: #ffb03b;
+    font-size: 18px;
+}
+
+.product-fre{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-fre #fresh{
+   color: rgb(66 186 146);
+}
+
+.product-banner-fre #fresh1{
+    color: rgb(66 186 146);
+ }
+
+ .product-banner-fre #fresh2{
+    color: #ff696b;
+ }
+
+.product-btn{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #ff696b;
+    background: -webkit-linear-gradient(to left, #fff, #ff696b); 
+    background: linear-gradient(to left, #ffa0a2, #ff696b);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.product-btn img{
+    width: 11px;
+    margin-left: 5px;
+}
+
+.product-cards{
+    display: grid;
+    grid-template-columns: 133px   133px  133px  133px  133px  133px  133px ;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+
+.product-meats{
+    display: grid;
+    grid-template-columns: 490px 490px;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+
+/* .product-cat{
+    margin-top: 40px;
+} */
+
+.product-card{
+    padding: 18px 0px 18px 18px;
+    background-color: #f7f7f7;
+}
+
+.product-card img{
+    width: 40px;
+    margin-left: 27px;
+    margin-bottom: 7px;
+}
+
+.product-content{
+    padding-left: 20px;
+    margin:0px;
+}
+
+.product-meat{
+    background-image: url('/img/banner/9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 0px 0px 31px;
+    margin-top: 30px;
+}
+
+.product-mash{
+    background-image: url('/img/banner/10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 0px 0px 31px;
+    margin-top: 30px;
+}
+/* ======================== Categories End ========================= */
+
+
+
+
+/* ======================== Food Start ========================= */
+
+
+
+.food{
+    display: grid;
+    grid-template-columns: 400px  993px;
+    margin-top: 20px;
+    grid-column-gap: 20px;
+}
+
+.food-img{
+    background-image: url(/img/banner/11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: cover;
+    width: 100%;
+    max-width: 179px;
+    padding: 37px 82px 533px  29px;
+    margin-left: 110px;
+}
+
+
+.food-content , .food-sea, .food-fre, .food-ever{
+    margin: 0;
+}
+
+.food-sea{
+    color: #ffb03b;
+    font-size: 18px;
+}
+
+.food-fre{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.food-fre #fresh{
+   color: rgb(66 186 146);
+}
+
+
+.food-btn{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #ff696b;
+    background: -webkit-linear-gradient(to left, #fff, #ff696b); 
+    background: linear-gradient(to left, #ffa0a2, #ff696b);
+    margin-top: 10px;
+}
+
+.food-btn img{
+    width: 11px;
+    margin-left: 5px;
+}
+
+.product-banner{
+    background-image: url(/img/banner/15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: cover;
+    width: 100%;
+    max-width: 882px;
+    margin-top: 70px;
+    padding: 18px 85px 0px 29px;
+    text-align: center;
+}
+
+.product-banner-content{
+    margin: 0px;
+    color: #fff;
+}
+
+.product-banner-btn{
+    background: rgb(255 255 255 / 28%);
+    border: 1px dashed  rgb(255 255 255 / 28%);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.product-banners{
+    display: grid;
+    grid-template-columns: 599px 390px;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+
+.product-banner3{
+    background-image: url('/img/banner/13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 0px 0px 31px;
+    margin-top: 30px;
+}
+
+.product-banner2{
+    background-image: url('/img/banner/12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 44px 0px 0px 31px;
+    margin-top: 30px;
+}
+
+.product-content , .product-sea, .product-banner-fre, .product-ever{
+    margin: 0;
+}
+/* ======================== Food End ========================= */
+
+
+/* ======================== Seller Start ========================= */
+
+.seller{
+    display: grid;
+    grid-template-columns: 400px  993px;
+    grid-column-gap: 20px;
+}
+
+.seller-product{
+    margin-top: 40px;
+    margin-left: 110px;
+    padding: 1px 0px 0px 20px;
+    background-color: #f7f7f7;
+}
+
+.seller-content{
+    display: flex;
+}
+
+.seller-content img{
+    width: 60px;
+}
+
+
+
+.seller-content-box , .seller-h6 , .seller-h, .seller-h5{
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.seller-h6{
+    color: rgb(66 186 146);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 320px  320px  320px;
+    grid-column-gap: 20px;
+    margin-top: 40px;
+}
+
+.border{
+    border: 1px solid #e4e4e4;
+    padding: 25px 0px 0px 33px;
+}
+
+/* ======================== Seller End ========================= */
+
+
+
+/* ======================== Customer Start ========================= */
+.customer{
+    display: grid;
+    grid-template-columns: 400px  993px;
+    grid-column-gap: 20px;
+}
+
+.customer-product{
+    margin-top: 40px;
+    margin-left: 110px;
+    height: auto;
+    max-height: 260px;
+    padding: 1px 0px 0px 20px;
+    background-color: #f7f7f7;
+}
+
+.customer-product1{
+    margin-top: 40px;
+    padding: 1px 0px 0px 20px;
+}
+
+.testi{
+    display: flex;
+    margin-top: 20px;
+}
+
+.testi-img img{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 60px;
+    padding-right: 10px;
+}
+
+.testi-head{
+    margin-top: 10px;
+}
+
+
+.customer-banner-img{
+    background-image: url('/img/banner/14.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 30px 30px;
+    margin-top: 30px;
+}
+
+
+.customer-banner-img > h1 , p{
+    margin: 0px;
+}
+
+.customer-banner-img{
+    text-align: center;
+}
+
+.customer-product1 p{
+    font-size: 14px;
+}
+
+.customer-blog{
+    display: grid;
+    grid-template-columns: 315px  315px 315px;
+    grid-column-gap: 10px;
+    margin-top: 30px;
+}
+
+
+
+.customer-imgs img{
+    width: 100%;
+    max-width: 336px;
+    margin-bottom: 20px;
+}
+
+.customer-para{
+    margin: 0px;
+}
+/* ======================== Customer End ========================= */
+
+
+/* ======================== NewsLetter Start ========================= */
+
+.news-letter-img{
+    background-image: url('/img/news.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 30px 30px;
+    max-width: 1275px;
+    width: 100%;
+    margin: 10px 0px 10px 97px;
+}
+
+
+.news-letter-img > h1 , p{
+    margin: 0px;
+}
+
+.news-letter-img{
+    text-align: center;
+}
+
+
+.news-input {
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.news-btn{
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 20px 7px 20px;
+    border-radius: 4px;
+    border: 1px solid #ff696b;
+    background: -webkit-linear-gradient(to left, #fff, #ff696b);
+    background: linear-gradient(to left, #ffa0a2, #ff696b);
+    margin-top: 20px;
+    margin-left: -132px;
+    z-index: 100000;
+}
+
+.news-btn  img{
+    width: 11px;
+    margin-left: 5px;
+}
+
+.news-letter-img h1{
+    color: #fff;
+}
+
+.news-letter-img .text{
+    color: #ffb03b;
+}
+
+.news-letter{
+    margin-top: 40px;
+}
+/* ======================== NewsLetter End ========================= */
+
+
+/* ======================== footer Start========================= */
+
+.footer{
+    background-image: url('/img/footer-shape-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 30px 30px;
+    max-width: 1275px;
+    width: 100%;
+    margin: 10px 0px 10px 97px;
+}
+
+
+.services{
+    display: grid;
+    grid-template-columns: 215px  215px 215px 215px;
+    grid-column-gap: 122px;
+    margin-top: 30px;
+}
+.services-1{
+    display: flex;
+}
+
+.services-1 img {
+    width: 34px;
+}
+
+.services-1 > h5{
+    margin-left: 10px;
+}
+
+.vl-footer {
+    border-top: 2px dashed #d3d3d3;
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-list-1 p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-list-1 .logo{
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: 240px  230px  230px  230px  230px  230px ;
+    grid-column-gap: 22px;
+    margin-top: 30px;
+}
+
+.footer-list-1 > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-call img{
+    width: 24px;
+}
+
+.footer-contact img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-around;
+}
+/* ======================== footer End ========================= */
