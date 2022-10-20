@@ -159,7 +159,7 @@ ul{
 
 
 .banner-content{
-    background-image: url('banner/1.jpg');
+    background-image: url('/banner/1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
